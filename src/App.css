@@ -117,8 +117,8 @@ button:focus{
 
   .app-wrapper {
     background-color: #12343b;
-    min-width: 450px;
-    min-height: 650px;
+    width: 100vw;
+    height: 100vh;
     padding: 30px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -165,8 +165,8 @@ button:focus{
  
   .app-wrapper {
     background-color: #12343b;
-    min-width: 450px;
-    min-height: 650px;
+    width: 100vw;
+    height: 100vh;
     padding: 30px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -231,6 +231,21 @@ button:focus{
 
 
 @media only screen and (max-width: 320px){
+
+  .app-wrapper {
+    background-color: #12343b;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3x 6px 40px #000;
+    margin:auto;
+    /* margin-bottom: 10px */
+  
+  }
+
+
   .header h1 {
     color: #fff;
     text-align: center;
