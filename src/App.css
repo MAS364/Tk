@@ -181,7 +181,7 @@ button:focus {
   .app-wrapper {
     background-color: #12343b;
     width: 50%;
-    height: 80%;
+    /* height: 80%; */
     padding: 30px;
     box-sizing: border-box;
     border-radius: 10px;
