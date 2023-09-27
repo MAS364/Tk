@@ -32,7 +32,8 @@ const onFormSubmit = (e) => {
 };    
 
   return (
-    <form onSubmit={onFormSubmit}>
+    <div className="form-container">
+      <form onSubmit={onFormSubmit}>
       <input
         type="text"
         placeholder="Enter a Todo.."
@@ -45,7 +46,9 @@ const onFormSubmit = (e) => {
         {editTodo ? "OK" : "ADD"}
       </button>
     </form>
-  );
+
+    </div>
+    );
 };
 
 export default Form;
