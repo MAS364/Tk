@@ -119,7 +119,7 @@ button:focus{
   .container {
     background: linear-gradient(to right bottom, #e1b382, #c89666);
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,9 +145,52 @@ button:focus{
   width: 80%;
 }
 
+}
+
+
+
+@media only screen and (max-width: 1900px){
+
+  .app-wrapper {
+    background-color: #12343b;
+    width: 50%;
+    height: 80%;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 3x 6px 40px #000;
+    margin: 20px auto;
+    /* margin-bottom: 10px */
+  
+  }
+
+  .list{
+    width: 60%;
+    background-color: #12343b;
+    border: none;
+    color: #ccc;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-right: 15px;
+  }
+
+  .task-input {
+    outline: none;
+    width: 500px;
+    padding: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc;
+    background-color: #000000;
+    border: 1px solid #c89666;
+    border-radius: 10px;
+  }
 
 
 }
+
+
 
 @media only screen and (max-width: 1400px){
 
