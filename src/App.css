@@ -116,23 +116,34 @@ button:focus{
 
 @media only screen and (max-width: 2400px){
 
+  .container {
+    background: linear-gradient(to right bottom, #e1b382, #c89666);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app-wrapper {
+    width: 30%;
+  
+  }
+  
   .task-input {
-    outline: none;
-    width: 360px;
-    padding: 15px;
-    margin-left: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ccc;
-    background-color: #000000;
-    border: 1px solid #c89666;
-    border-radius: 10px;
+    width: 400px;
+    margin-left: 50px;
+   
   }
 
   .btn {
     display: flex;
-    margin-left: 50px;
+    margin-left: 150px;
  }  
+
+ .list-item {
+  width: 80%;
+}
 
 
 
